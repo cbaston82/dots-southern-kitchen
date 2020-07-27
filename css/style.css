@@ -1,0 +1,382 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*-----------------main code*/
+body{
+    background-color:#000;
+    width:100%;
+    font-family:arial;
+}
+
+#wrapper{
+    background-image:url(../images/bg.jpg);
+    background-repeat:no-repeat;
+    margin:0 auto;
+    width:1400px;
+    padding-top:28px;
+}
+
+#header-wrapper{
+    width:980px;
+    margin:0 auto;
+}
+#phone{
+    width:700px;
+    float:left;
+    margin-bottom:40px;
+}
+
+#call{
+    width:480px;
+    font-size:37px;
+    color:#ffffff;
+    float:left;
+}
+
+#grubhub{
+    width:200px;
+    height: 38px;
+    float:left;
+}
+
+#nav-bar{
+    font-size:19px;
+    float:right;
+    width:280px;
+}
+.main-link{
+    float:left;
+    padding:0 10px;
+}
+.main-link a{
+    color:#B87737;
+    text-decoration:none;
+    display:block;
+}
+.main-link a:hover{
+    color:#FFDC72;
+}
+.active{
+    color:#FFDC72;
+}
+.clear{
+    clear:both;
+}
+#logo{
+    margin-left:224px;
+}
+#content-wrapper{
+    width:100%;
+    margin-top:32px;
+}
+#content{
+    width:980px;
+    min-height:600px;
+    background-color:#FFF;
+    margin:0 auto;
+    padding:0 0 20px 0;
+}
+
+#picture{
+    width:376px;
+    height:288px;
+    padding:30px 30px 15px 30px;
+    float:left;
+}
+
+#categories{
+    padding-top:30px;
+    float:right;
+}
+.category{
+    margin-bottom:20px;
+}
+#home-about{
+    width:376px;
+    padding:0 30px 15px 30px;
+    font-size:20px;
+    font-weight:700;
+}
+#home-content{
+    width:376px;
+    padding:0 30px;
+    font-size:14px;
+    line-height:18px;
+}
+#footer-wrapper{
+    width:100%;
+    margin-top:20px;
+}
+#footer{
+    width:980px;
+    margin:0 auto;
+    color:#FFFFFF;
+}
+
+.page-tittle{
+    font-size:30px;
+    color:#D83400;
+    padding-top:20px;
+}
+.page-content{
+    width:493px;
+    height:308px;
+    margin:0 auto;
+    margin-top:100px;
+    line-height:18px;
+    font-size:14px;
+}
+/*----------------contact form ------------------------*/
+#contact-left{
+    width:390px;
+    padding:25px 0 0 100px;
+    float:left;
+}
+#contact-left h1{
+    font-size:29px;
+    color:#202020;
+    font-weight:bold;
+}
+#contact-left h3{
+    font-size:14px;
+    color:#202020;
+    padding:10px 0px;
+    line-height:20px;
+}
+
+#contact-right{
+    width:490px;
+    float:right;
+    padding:94px 0 0 0;
+}
+.text-field{
+    background-image:url(../images/text-field.png);
+    background-repeat:no-repeat;
+    width:322px;
+    height:32px;
+    line-height:33px;
+    padding-left:10px;
+    font-size:14px;
+    color:#000000;
+    margin:0 0 15px 0px;
+    border:none;
+}
+.mess-field{
+    background-image:url(../images/mess-field.png);
+    background-repeat:no-repeat;
+    width:322px;
+    height:113px;
+    line-height:33px;
+    padding-left:10px;
+    font-size:14px;
+    color:#000000;
+    margin:0 0 15px 0px;
+    border:none;
+}
+/*----------------contact form ------------------------*/
+#google-maps{
+    width:900px;
+    margin:20px auto 0 auto;
+}
+
+#thank-you-wrapper{
+    width:100%;
+}
+#thank-you{
+    width:600px;
+    padding:170px;
+    margin:0 auto;
+}
+#thank-you h1{
+    font-size:100px;
+    font-weight:bold;
+    color:#B87737;
+
+}
+#thank-you p{
+    width:500px;
+    font-size:18px;
+    color:#D19A65;
+    margin-left:20px;
+    margin-top:10px;
+}
+.thank-you-link{
+    color:#D93600;
+    font-size:18px;
+    padding-top:20px;
+}
+
+.footer-link{
+    color:#D93600;
+    font-size:18px;
+    padding-top:20px;
+}
+
+#category-content{
+    width:376px;
+    height:200px;
+    padding:30px 30px 15px 30px;
+    line-height:20px;
+}
+#category-detail{
+
+    width:436px;
+    float:left;
+}
+#category-picture{
+    width:350px;
+    height:208px;
+    margin:0 0 0 30px;
+}
+#view-menu{
+
+    width:266px;
+    height:87px;
+    margin-top:20px;
+    margin-left:-22px;
+}
+#callout{
+    width:980px;
+    padding-top:10px;
+    color:#D83500;
+    font-size:17px;
+    font-weight:bold;
+}
+#categories-arrow{
+    margin-left:742px;
+    margin-top:-25px;
+    width:266px;
+    height:93px;
+}
+#items-list{
+    margin:0 0 20px 0;
+    padding:20px;
+    width:940px;
+    min-height:420px;
+}
+.item{
+    height:150px;
+    width:150px;
+    float:left;
+    margin-right:18px;
+    margin-left:18px;
+    margin-bottom:25px;
+}
+.item-tittle{
+    font-size:12px;
+    font-weight:bold;
+    height:25px;
+    line-height:25px;
+    color:#2B1109;
+
+
+}
+.item-details{
+    height:25px;
+    line-height:25px;
+    font-size:14px;
+    color:#128B00;
+    font-weight:bold;
+}
+.contact-info-heading{
+    height:25px;
+    line-height:25px;
+    font-size:20px;
+    color:#128B00;
+    font-weight:bold;
+}
+.contact-info{
+    height:25px;
+    line-height:25px;
+    font-size:14px;
+    color:#128B00;
+}
+#download-menu{
+    width:200px;
+    height:72px;
+    margin:0px 0 0 80px;
+}
+/*-------------place holder ---------*/
+::-webkit-input-placeholder {
+    color:#FF8962
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color:#FF8962
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color:#FF8962
+}
+
+:-ms-input-placeholder {
+    color:#FF8962
+}
+/*-------------/place holder ---------*/
+
+/*----------------survey form ------------------------*/
+#survey-left{
+    width:390px;
+    padding:162px 0 0 100px;
+    float:left;
+}
+#survey-left h1{
+    font-size:29px;
+    color:#202020;
+    font-weight:bold;
+}
+#survey-left h3{
+    font-size:14px;
+    color:#202020;
+    padding:10px 0px;
+    line-height:20px;
+}
+
+#survey-right{
+    width:490px;
+    float:right;
+    padding:20px 0 0 0;
+}
+/*----------------survey form ------------------------*/
