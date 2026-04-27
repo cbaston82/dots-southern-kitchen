@@ -356,6 +356,21 @@ body{
 }
 /*-------------/place holder ---------*/
 
+/*----------------submit button ------------------------*/
+.submit-btn{
+    background-color:#B87737;
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+    padding:10px 30px;
+    border:none;
+    cursor:pointer;
+    margin-top:5px;
+}
+.submit-btn:hover{
+    background-color:#FFDC72;
+    color:#000;
+}
 /*----------------survey form ------------------------*/
 #survey-left{
     width:390px;
