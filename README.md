@@ -21,8 +21,8 @@ A restaurant website for Dot's Southern Kitchen in Las Vegas, NV. Dot's had two 
 
 ## Live Site
 
-Coming soon — deploying to Netlify.
+[dotssouthernkitchen2.com](http://dotssouthernkitchen2.com/)
 
 ## Screenshot
 
-![Dot's Southern Kitchen](https://res.cloudinary.com/imagine-design-develop/image/upload/v1595886728/screenshot.png)
+![Dot's Southern Kitchen](https://res.cloudinary.com/hoo/image/upload/v1595886728/screenshot.png)
